@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - a function that displays code within its curly braces
+ * main - Entry Point
  *
  * Return: always 0 (Sucess)
  */
