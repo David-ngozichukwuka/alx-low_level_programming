@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strstr - finds the first occurrenec of the substring 
+ * _strstr - finds the first occurrenec of the substring
  * @haystack: main string to be scanned
  * @needle: string to be searched within the haystack string
  *
@@ -8,12 +8,12 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	for (;*haystack != '\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *h = haystack;
 		char *n = needle;
-		
-		while(*h == *n && *n != '\0')
+
+		while (*h == *n && *n != '\0')
 		{
 			h++;
 			n++;
