@@ -3,7 +3,7 @@
  * _puts_recursion - outputs a string
  * @s:a string
  *
- * Return: Void 
+ * Return: Void
  */
 void _puts_recursion(char *s)
 {
@@ -16,4 +16,4 @@ void _puts_recursion(char *s)
 	{
 	_putchar('\n');
 	}
-}	
+}
