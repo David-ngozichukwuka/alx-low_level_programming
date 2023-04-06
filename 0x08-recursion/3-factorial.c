@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * factorial - prints the product of an integer with every whole number less than or equal to the it until one.
+ * factorial - prints the product of an integer.
  * @n: integer
  *
  * Return: int
@@ -11,18 +11,15 @@ int factorial(int n)
 
 	if (n < 0)
 	{
-		return (-1);
+	return (-1);
 	}
 	else if (n == 0)
-
 	{
 	return (1);
 	}
 	else
 	{
-		r = n * factorial(n - 1);
+	r = n * factorial(n - 1);
 	}
 	return (r);
-
 }
-
