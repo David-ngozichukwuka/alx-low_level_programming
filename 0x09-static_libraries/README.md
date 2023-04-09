@@ -1,0 +1,1 @@
+Static libraries are collections of object files that are linked into a program during the linking stage of compilation. This project contains a group of object files combined with a library by the linker to form an executable file
