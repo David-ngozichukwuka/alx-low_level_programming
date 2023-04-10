@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	return (1);
 	}
 
-	b = atoi(argv[2]);
+	b = atoi(argv[2]); /* atoi converts a character string to an integer */
 	a = atoi(argv[1]);
 	printf("%d\n", a * b);
 
