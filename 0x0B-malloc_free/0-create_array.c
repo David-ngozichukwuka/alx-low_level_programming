@@ -3,7 +3,7 @@
 /**
  * create_array - create array of size size of char c
  * @size: the array size
- *
+ * @c: intial character value
  * Return: a pointer to the array
  */
 char *create_array(unsigned int size, char c)
@@ -15,10 +15,10 @@ char *create_array(unsigned int size, char c)
 	return (NULL);
 
 	string = (char *)malloc(sizeof(char) * size);
-	if (string == 0)
+	if (string == NULL)
 	return (NULL);
 
-	for (i = 0; i < size; i = 1 + 1)
+	for (i = 0; i < size; i = i + 1)
 	string[i] = c;
 	return (string);
 }
