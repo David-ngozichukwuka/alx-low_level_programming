@@ -24,7 +24,8 @@ char *argstostr(int ac, char **av)
 		p = av[a];
 		b = 0;
 
-	while (p[b++])
+		while (p[b++])
+			d++;
 		d++;
 	}
 
@@ -35,7 +36,8 @@ char *argstostr(int ac, char **av)
 	{
 		p = av[a];
 		c = 0;
-	while (p[c])
+
+		while (p[c])
 	{
 		str[b] = p[c];
 		c++;
